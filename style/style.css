@@ -1,0 +1,80 @@
+.body{
+    font-family: "PT Sans", Arial, sans-serif;
+    
+}
+
+.shape{
+    position: absolute;
+    margin-top: 460px;
+    width: 100%;
+    height:58px; 
+}
+
+@media(min-width:768px){
+    .background-img-sedona{
+    background-image:url(../image/back-desktop.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    /* min-width:1200px; */
+    height:518px;
+    position: relative;
+    margin-top: -55px;
+    z-index: 1;
+    
+}
+.z-index2{
+    position: relative;
+    z-index: 2;
+    
+}
+}
+
+
+@media (max-width: 576px) {
+    nav {
+        text-align: center;     
+    }
+     li > a {
+        background: #81b3d2;
+        border: 1px solid lightgrey;
+        box-shadow: 0 0 10px rgba(255, 251, 251, 0.5);
+        
+    }
+    .colorTextNav{
+        color:white;
+    }
+    button {
+        margin-left: 280px;
+        
+    }
+    .background-img-sedona-mobile{
+        background-image:url(../image/back-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:360px;
+        height:389px;
+        position: initial;
+        margin-top: -110px;
+        
+       
+        /* z-index: 1; */
+        
+    }
+    .z-index2{
+        position: relative;
+        z-index: 2;
+};
+.text-sedona-mobile{
+    margin-top: 85px;
+    margin-left: 45px;
+}
+
+.initial{
+    /* display: initial; */
+}
+nav{
+    display: initial;
+}
+}
+
+
