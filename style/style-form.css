@@ -1,0 +1,25 @@
+.background-img-sedona-form{
+  background-image:url(../image/index/back-desktop-form.jpg);
+  display:flex;
+  position: relative;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 357px;
+  margin-top: -95px;
+  z-index: 1;
+
+} 
+.text-sedona{
+  position: relative;
+  height: 79px;
+  margin: auto;
+}
+img.shape_sedona{
+  position: absolute;
+  height: 57px;
+ margin-top: 301px;
+width:100%;
+}
+
+

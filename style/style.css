@@ -1,0 +1,275 @@
+
+@font-face{
+    src: url(../fonts/PTSans/PTC55F.ttf);
+    src: url(../fonts/PTSans/PTC75F.ttf);
+    src: url(../fonts/PTSans/PTN57F.ttf);
+    src: url(../fonts/PTSans/PTN77F.ttf);
+    src: url(../fonts/PTSans/PTS55F.ttf);
+    src: url(../fonts/PTSans/PTS56F.ttf);
+    src: url(../fonts/PTSans/PTS75F.ttf);
+    src: url(../fonts/PTSans/PTS76F.ttf);
+    src: url(../fonts/web/ptsans.woff);
+    src: url(../fonts/web/ptsans.woff2);
+    src: url(../fonts/web/ptsansbold.woff);
+    src: url(../fonts/web/ptsansbold.woff2);
+
+}
+body{
+    text-transform: uppercase;
+    
+}
+
+.shape{
+    position: absolute;
+    margin-top: 460px;
+    width: 100%;
+    height:58px; 
+}
+
+.btn{
+    background-color: #81b3d2;
+    color:white;
+    padding: 10px;
+    margin:10px 0px;
+}
+  footer > img {
+    height: 46px;
+    width: 50px;
+}
+
+
+
+@media(min-width:992px){
+
+    .z-index2{
+        position: relative;
+        z-index: 2;
+        
+    }
+}
+.color-nav{
+    color:black;
+    font-weight: 500;
+}
+
+@media(min-width:750px){
+    body{
+       margin-left: 40px;
+       margin-right: 40px;
+        box-shadow:0px 40px 0px 40px #f2f2f2;
+    }
+    .background-img-sedona{
+    background-image:url(../image/back-desktop.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height:518px;
+    position: relative;
+    margin-top: -95px;
+    z-index: 1;
+    
+}
+.z-index2{
+    position: relative;
+    z-index: 2;
+    
+}
+
+.image-house{
+    background-image: url(../image/index/house.jpg);   
+    background-repeat: no-repeat;
+}
+.size-img{
+    width: 100%;
+    height: 256px;
+   
+}
+
+.shape{
+    position: absolute;
+    margin-top: 462px;
+    width: 100%;
+    height:58px; 
+}
+.align-item{
+    align-self: center;
+    background-color: #81b3d2;
+    
+    
+}
+/*  */
+.background{
+    background-image: url(../image/index/house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 256px;
+  }
+
+  .bg-blue{
+    background-color: #81b3d2;
+    text-align: center;
+    align-self: center;
+    color:white;
+    
+  }
+  .grey{
+    background-color: #f2f2f2;
+  }
+ .icon-m{
+     margin: 15px 0px;
+ }
+ .textCenter{
+    text-align: center;
+ }
+
+ .backgroundBridge{
+     background-image: url('../image/index/bridge-desktop.jpg');
+     background-size: cover;
+     width: 100%;
+     height: 256px;
+
+ }
+ .advantagesGreyBottom{
+     background-color: #dedede;
+ }
+ .textSedonaCenter{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 30px;
+}
+
+.bg-socialSize{
+    background-color: #81b3d2;
+    padding: 15px;
+}
+
+}
+
+@media(max-width:800px){
+    .backgroundMobileHouse{
+        background-image: url(../image/mobile/house-mobile.jpg);
+        background-repeat: no-repeat;
+        width:360px;
+        height: 260px;
+        background-size: cover;
+  }
+}
+
+
+@media (max-width: 768px) {
+    
+    nav {
+        text-align: center;     
+    }
+     li > a {
+        background: #81b3d2;
+        
+
+    }
+    .colorTextNav{
+        color:white;
+       
+    }
+    button {
+        margin-left: 250px;  
+    }
+    .background-img-sedona-mobile{
+        background-image:url(../image/back-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height:389px;
+        position: initial;
+        margin-top: -70px;
+        text-align: center; 
+        display: relative;
+        z-index: 1;
+    }
+    
+.text-sedona-mobile{
+    margin-top: 85px;
+    margin-left: 45px;
+}
+.textNav{
+    
+    margin-left: 150px;
+    margin-top: -65px;
+}
+.text{
+    margin-left: 44%px;
+    margin-top: -150px;
+}
+.bg-blue{
+    background-color: #81b3d2;
+    text-align: center;
+    align-self: center;
+    color:white;
+  }
+  .backgroundMobileHouse{
+        background-image: url(../image/mobile/house-mobile.jpg);
+        background-repeat: no-repeat;
+        width:360px;
+        height: 260px;
+        background-size: cover;
+  }
+  .backgroundBridgeMobile{
+    background-image: url(../image/mobile/bridge-mobile.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 320px;
+    height: 260px;
+}
+
+.advantagesGrey{
+    border-bottom: 1px solid lightslategray;
+    background-color: #eeeeee;
+}
+.advantagesGreyBottom{
+    border-top: 1px solid #d6d6d6;
+    margin:  10px;
+    
+}
+.textSedonaCenter{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 10px;
+    padding: 30px;
+}
+.bg-grey{
+    background-color:#eeeeee;
+}
+.mobileSocial{
+    text-align:center;
+    margin: 20px 0px;
+}
+.social{
+    background-color: #81b3d2;
+    padding: 15px;
+}
+ul li {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+}
+
+
+@media (max-width:576px){
+    .shapeMb{
+        margin-top: 18px;
+        position: relative;
+        width: 100%;
+        height: 57px;
+        
+    }
+    .text{
+        margin-left: 42%;
+        margin-top: -150px;
+    }
+    .row-mt{
+        margin-top:40px;
+    }
+   
+}
+
